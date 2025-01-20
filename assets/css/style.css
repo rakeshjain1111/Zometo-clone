@@ -1,0 +1,12 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header{
+    height: 440px;
+    background-image: url("../img/banner.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
