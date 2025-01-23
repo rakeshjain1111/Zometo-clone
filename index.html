@@ -11,15 +11,15 @@
 <body>
    <div class="container-fluid m-0 p-0">
       <header class="position-relative">
-       <div class="container">
+       <div class="container p-1">
         <div class="header d-flex justify-content-between mt-2">
-          <div class="">
+          <div class="left text-white d-none d-lg-block">
             <i class="fa-solid fa-mobile-screen-button"></i>Get the App
           </div>
-          <div>  
+          <div class="d-block d-lg-none">  
             <img src="./assets/img/pngwing.com (6).png" alt="" class="w-25">
           </div>
-          <div class="dropdown text-light fs-2 d-block d-lg-non">
+          <div class="dropdown text-light fs-2 d-block d-lg-none">
             <button class="btn bg-transparent border-light fs-2 d-block d-lg-non" type="button" data-bs-toggle="dropdown" area-expanded="false">
               <i class="fa-solid fa-bar-staggered text-light fs-2 d-block d-lg-none" style="cursor: pointer;"></i>
             </button>
@@ -30,8 +30,24 @@
               <li class="p-3" style="cursor: pointer;">Sign up</li>
             </ul>
           </div>
-          <div></div>
-          <div></div>
+          <div class="last d-none d-lg-block">
+            <ul class="d-flex text-light list-unstyled">
+              <li class="p-3" style="cursor: pointer;">Invester Relations</li>
+              <li class="p-3" style="cursor: pointer;">Add restaurant</li>
+              <li class="p-3" style="cursor: pointer;"><i class="fa-solid fa-user"></i>&nbsp; Log in</li>
+              <li class="p-3" style="cursor: pointer;">Sign up</li>
+            </ul>
+          </div>
+        </div>
+       </div>
+       <div class="fs-2 box text-light position-absolute top-50 start-50  translate-middle text-center w-100 ">
+        <h1>Zomato</h1>
+        <p class="text-light w-100">Discover the best food & drinks in Pune</p>
+        <div class="bg-light d-flex search border-none rounded w-50 d-md-w-100 mx-auto">
+          <i class="fa-solid fa-location-dot fa-xs my-auto" style="color: #ff7e8b;"></i>
+          <input type="text" class="w-25 form-control border-0 shadow-none bg-transparent" placeholder="Pune">
+          <div class="text-black-50">|</div>
+          <input type="text" class="w-75 form-control border-0 shadow-none bg-transparent" placeholder="Search Your Restaurant,cuisine or a dish">
         </div>
        </div>
       </header>
