@@ -1,7 +1,7 @@
 *{
     margin: 0px;
     padding: 0px;
-    box-sizing: border-box;
+    
     list-style: none;
 }
 
@@ -25,3 +25,22 @@ header{
     color:#ff7e8b;
 }
 
+.foodimg img{
+  width: 100%;
+  height: 300px;
+  display: table;
+  margin: auto;
+  border-radius: 15px;
+  margin-bottom: 10px;
+}
+.foods-1{
+    margin-bottom: 30px;
+    padding: 10px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.foods-1:hover{
+    box-shadow: 3px 3px 8px 3px #ccc;
+}

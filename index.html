@@ -39,7 +39,7 @@
             </ul>
           </div>
         </div>
-       </div>
+       
        <div class="fs-2 box text-light position-absolute top-50 start-50  translate-middle text-center w-100 ">
         <h1>Zomato</h1>
         <p class="text-light w-100">Discover the best food & drinks in Pune</p>
@@ -59,7 +59,7 @@
           <li><a href="">Pune /</a></li>
           <li>Rawaton ka bass Restaurant</li>
         </ul>
-      </div>
+      
 
       <div class="timezonebox d-flex mt-5 flex-sm-row flex-column">
         <div class="time d-flex">
@@ -91,23 +91,427 @@
         <div class="offcanvas-body">
           Select Your Category
           <div class="dropdown mt-3">
-            <button class="btn btn-secondary dropdown-too"
+            <button class="btn btn-secondary dropdown-toggle bg-danger border-0" type="button" data-bs-toggle="dropdown">
+              Sort By Popularity
+            </button>
+            <ul class="dropdown-menu">
+                <a class="dropdown-item" href=""><input type="radio"name="Select" value="Security"> Popularity</a>
+                <a class="dropdown-item" href=""><input type="radio"name="Select" value="Security">Rating: High to Low</a>
+                <a class="dropdown-item" href=""><input type="radio"name="Select" value="Security">Delivery Time</a>
+                <a class="dropdown-item" href=""><input type="radio"name="Select" value="Security">Cost: Low to High</a>
+                <a class="dropdown-item" href=""><input type="radio"name="Select" value="Security">Cost: High to Low</a>
+            </ul>
           </div>
         </div>
      </div> 
 
-     <button type="button" class="btn btn-primary mt-4 bg-secondary border-0" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" area-controls="offcanvasExample">
+     <button type="button" class="btn btn-primary mt-4 bg-secondary border-0" data-bs-toggle="offcanvas" href="" role="button" area-controls="offcanvasExample">
       Pure Veg
      </button>
 
-     <button type="button" class="btn btn-primary mt-4 bg-secondary border-0" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" area-controls="offcanvasExample">
+     <button type="button" class="btn btn-primary mt-4 bg-secondary border-0" data-bs-toggle="offcanvas" href="#exampleModal" role="button" area-controls="offcanvasExample">
       Launch
      </button>
 
+     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Cuisines</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+              <input type="search" class="form-control shadow-none" placeholder="Search...">
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary bg-danger border-0">Apply</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="orderbox mt-5">
+      <h3>Inspiration for your first order</h3>
+         <div class="orderbox1-1 row row-cols-sm-3 row-cols-md-4 row-cols-xl-6 row-col-2 ms-2">
+            <div class="order1">
+              <img src="./assets/img/pizaa.webp" alt="" class="rounded-circle w-75">
+              <h5 class="ms-2">Pizaa</h5>
+            </div>
+            <div class="order1">
+              <img src="./assets/img/burger.webp" alt="" class="rounded-circle w-75">
+              <h5 class="ms-2">Burger</h5>
+            </div>
+            <div class="order1">
+              <img src="./assets/img/cake.webp" alt="" class="rounded-circle w-75">
+              <h5 class="ms-2">Cake</h5>
+            </div>
+            <div class="order1">
+              <img src="./assets/img/thali.webp" alt="" class="rounded-circle w-75">
+              <h5 class="ms-2">Thali</h5>
+            </div>
+            <div class="order1">
+              <img src="./assets/img/thali.webp" alt="" class="rounded-circle w-75">
+              <h5 class="ms-2">thali2</h5>
+            </div>
+             <div class="order1">
+              <img src="./assets/img/burger.webp" alt="" class="rounded-circle w-75">
+              <h5 class="ms-2">Burger</h5>
+            </div>
+         </div>
+    </div>
+    <div class="orderbox mt-5">
+      <h3>Top brands for you</h3>
+         <div class="orderbox1-1 row row-cols-sm-3 row-cols-md-4 row-cols-xl-6 row-col-2 ms-2">
+            <div class="order1">
+              <img src="./assets/img/janta.webp" alt="" class="rounded-circle w-75">
+              <h5 class="ms-2">Janta Sweet Home</h5>
+              <p class="text-center">33 min</p>
+            </div>
+            <div class="order1">
+              <img src="./assets/img/parihar.jpeg" alt="" class="rounded-circle w-75">
+              <h5 class="ms-2">Parihaar Bhojnalay</h5>
+              <p class="text-center">28 min</p>
+            </div>
+            <div class="order1">
+              <img src="./assets/img/jantawala.webp" alt="" class="rounded-circle w-75">
+              <h5 class="ms-2">Jantawala Sweets & Restaurant</h5>
+              <p class="text-center">22 min</p>
+            </div>
+            <div class="order1">
+              <img src="./assets/img/burgerfarm.webp" alt="" class="rounded-circle w-75">
+              <h5 class="ms-2">Burger Farm</h5>
+              <p class="text-center">28 min</p>
+            </div>
+            <div class="order1">
+              <img src="./assets/img/janta.webp" alt="" class="rounded-circle w-75">
+              <h5 class="ms-2">McDonald's</h5>
+              <p class="text-center">21 min</p>
+            </div>
+             <div class="order1">
+              <img src="./assets/img/janta.webp" alt="" class="rounded-circle w-75">
+              <h5 class="ms-2">Janta Sweet Home</h5>
+              <p class="text-center">20 min</p>
+            </div>
+         </div>
+    </div>
+    <div class="food">
+      <h3>Food Delivery Restaurants in Rawaton ka bass</h3>
+      <div class="row row-cols-lg-3 row-col-md-2 row-col-sm-2">
+
+        <!-- 1 -->
+        <div class="foods-1">
+          <div class="foodimg p-1">
+            <img src="./assets/img/restro.webp" alt="restro">
+            <div class="foodtext d-flex justify-content-between">
+              <div class="foodtext-1">
+                <h6>90's Restro</h6>
+                <p>North Indian South Indian Chin</p>
+              </div>
+              <div class="foodtext-2">
+                <button class="btn btn-primary bg-success">
+                  <span class="badge">
+                    4.1</span><i class="fa-solid fa-star fa-xs"></i>
+                  </span>
+                </button>
+                <p>₹ 230 For One</p>
+                <h6>12 min</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 2 -->
+        <div class="foods-1">
+          <div class="foodimg p-1">
+            <img src="./assets/img/mahaveer.webp" alt="restro">
+            <div class="foodtext d-flex justify-content-between">
+              <div class="foodtext-1">
+                <h6>Mahaveer Bhojanalaya</h6>
+                        <p>North Indian</p>
+              </div>
+              <div class="foodtext-2">
+                <button class="btn btn-primary bg-success">
+                  <span class="badge">
+                    4.1</span><i class="fa-solid fa-star fa-xs"></i>
+                  </span>
+                </button>
+                <p>₹ 500 For One</p>
+                <h6>30 min</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 3 -->
+        <div class="foods-1">
+          <div class="foodimg p-1">
+            <img src="./assets/img/bhojan.webp" alt="restro">
+            <div class="foodtext d-flex justify-content-between">
+              <div class="foodtext-1">
+                <h6>Parihaar Bhojnalay</h6>
+                <p>North Indian, Beverages,</p>
+              </div>
+              <div class="foodtext-2">
+                <button class="btn btn-primary bg-success">
+                  <span class="badge">
+                    4.1</span><i class="fa-solid fa-star fa-xs"></i>
+                  </span>
+                </button>
+                <p>₹ 100 For One</p>
+                <h6>33 min</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 4 -->
+        <div class="foods-1">
+          <div class="foodimg p-1">
+            <img src="./assets/img/mcdo.webp" alt="restro">
+            <div class="foodtext d-flex justify-content-between">
+              <div class="foodtext-1">
+                <h6>McDonald's</h6>
+                <p>Burger, Fast Food, Beverages,</p>
+              </div>
+              <div class="foodtext-2">
+                <button class="btn btn-primary bg-success">
+                  <span class="badge">
+                    4.1</span><i class="fa-solid fa-star fa-xs"></i>
+                  </span>
+                </button>
+                <p>₹ 270 For One</p>
+                <h6>35 min</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- 5 -->
+        <div class="foods-1">
+          <div class="foodimg p-1">
+            <img src="./assets/img/fullthali.webp" alt="roling">
+            <div class="foodtext d-flex justify-content-between">
+              <div class="foodtext-1">
+                <h6>Jantawala Sweets & Restaurant</h6>
+                        <p>North Indian, Sandwich, </p>
+              </div>
+              <div class="foodtext-2">
+                <button class="btn btn-primary bg-success">
+                  <span class="badge">
+                    4.1</span><i class="fa-solid fa-star fa-xs"></i>
+                  </span>
+                </button>
+                <p>₹ 230 For One</p>
+                <h6>30 min</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- 6 -->
+
+        <div class="foods-1">
+          <div class="foodimg p-1">
+            <img src="./assets/img/saicake.webp" alt="restro">
+            <div class="foodtext d-flex justify-content-between">
+              <div class="foodtext-1">
+                <h6>Jai Sai Cakes And Bakers</h6>
+                        <p>Bakery, Desserts</p>
+              </div>
+              <div class="foodtext-2">
+                <button class="btn btn-primary bg-success">
+                  <span class="badge">
+                    4.1</span><i class="fa-solid fa-star fa-xs"></i>
+                  </span>
+                </button>
+                <p>₹ 230 For One</p>
+                <h6>20 min</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+         
+        <!-- 7 -->
+
+        <div class="foods-1">
+          <div class="foodimg p-1">
+            <img src="./assets/img/saicake.webp" alt="restro">
+            <div class="foodtext d-flex justify-content-between">
+              <div class="foodtext-1">
+                <h6>Jai Sai Cakes And Bakers</h6>
+                        <p>Bakery, Desserts</p>
+              </div>
+              <div class="foodtext-2">
+                <button class="btn btn-primary bg-success">
+                  <span class="badge">
+                    4.1</span><i class="fa-solid fa-star fa-xs"></i>
+                  </span>
+                </button>
+                <p>₹ 230 For One</p>
+                <h6>20 min</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 8 -->
+
+        <div class="foods-1">
+          <div class="foodimg p-1">
+            <img src="./assets/img/restro.webp" alt="restro">
+            <div class="foodtext d-flex justify-content-between">
+              <div class="foodtext-1">
+                <h6>Parihaar Bhojnalay</h6>
+                <p>North Indian, Beverages,</p>
+              </div>
+              <div class="foodtext-2">
+                <button class="btn btn-primary bg-success">
+                  <span class="badge">
+                    4.1</span><i class="fa-solid fa-star fa-xs"></i>
+                  </span>
+                </button>
+                <p>₹ 100 For One</p>
+                <h6>33 min</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 9 -->
+
+        <div class="foods-1">
+          <div class="foodimg p-1">
+            <img src="./assets/img/hotelpriya.webp" alt="restro">
+            <div class="foodtext d-flex justify-content-between">
+              <div class="foodtext-1">
+                <h6>Hotel Priya</h6>
+                <p>North Indian, South Indian</p>
+              </div>
+              <div class="foodtext-2">
+                <button class="btn btn-primary bg-success">
+                  <span class="badge">
+                    4.1</span><i class="fa-solid fa-star fa-xs"></i>
+                  </span>
+                </button>
+                <p>₹ 100 For One</p>
+                <h6>33 min</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+  
+        <!-- ------- -->
+      </div>
+    
+        <div class="container mt-3">
+        <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    Popular cuisines near me
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse hide" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                 Bakery food near &nbsp; .&nbsp; meBeverages food &nbsp; .&nbsp;&nbsp; near meBurger &nbsp;.&nbsp; food near meCafe &nbsp;. &nbsp;food near meChinese&nbsp;. &nbsp;food near meCoffee &nbsp;.&nbsp; food near meDesserts . food near meIce Cream . food near meItalian . food near meMithai . food near meMomos food . near meMughlai . food near meNorth Indian &nbsp;.&nbsp; food near mePasta &nbsp;.&nbsp; food near mePizza &nbsp;.&nbsp; food near meRajasthani &nbsp;.&nbsp; food near meSandwich&nbsp; &nbsp;. food near meShake &nbsp;. &nbsp;food near meSouth Indian . food near meStreet . food near meBakery . food near meBeverages . food near meBurger . food near meCafe &nbsp;.&nbsp; food near meChinese &nbsp;.&nbsp; food near meCoffee &nbsp;.&nbsp; food near meDesserts &nbsp;.&nbsp; &nbsp; near meIce Cream &nbsp;.&nbsp; food near meItalian &nbsp;.&nbsp; food near meMithai &nbsp;.&nbsp; food near meMomos  &nbsp;.&nbsp; food near meMughlai &nbsp;.&nbsp; food near meNorth Indian &nbsp;.&nbsp; food near mePasta &nbsp;.&nbsp; food near mePizza &nbsp;.&nbsp; food near meRajasthani &nbsp;.&nbsp; food near meSandwich &nbsp;.&nbsp; food near meShake . food near meSouth Indian . food near meStreet . food near meBakery . food near meBeverages&nbsp; .&nbsp; food near meBurger&nbsp; . &nbsp;food near meCafe &nbsp;.&nbsp; food near  &nbsp;.&nbsp;meChinese &nbsp;.&nbsp; food near meCoffee &nbsp;. &nbsp;food near meDesserts &nbsp; &nbsp;food near meIce Cream &nbsp;. &nbsp;food near meItalian &nbsp;.&nbsp;.&nbsp; food near meMomos food near meMughlai &nbsp;.&nbsp; food near meNorth Indian &nbsp;.&nbsp; food near mePasta &nbsp;.&nbsp;food near mePizza &nbsp;.&nbsp; food near meRajasthani &nbsp;.&nbsp; food near meSandwich &nbsp;.&nbsp; food near meShake &nbsp;.&nbsp; food near meSouth Indian &nbsp;.&nbsp;food near meStreet &nbsp;.&nbsp; food near meBakery &nbsp;.&nbsp; food near meBeverages &nbsp;.&nbsp; food near meBurger &nbsp;.&nbsp; food near meCafe &nbsp;.&nbsp; food near meChinese &nbsp;.&nbsp; food near meCoffee &nbsp;.&nbsp; food near meDesserts&nbsp; .&nbsp; food near meIce Cream&nbsp; &nbsp; food near meItalian &nbsp;.&nbsp; food near meMithai food near meMomos&nbsp;. &nbsp;food near meMughlai &nbsp;.&nbsp; food near meNorth Indian &nbsp;.&nbsp; food near mePasta &nbsp;. &nbsp;food near mePizza &nbsp;.&nbsp; food near meRajasthani &nbsp;.&nbsp; food near meSandwich &nbsp;. &nbsp;food near meShake&nbsp; .&nbsp; food near meSouth Indian &nbsp;.&nbsp; food near meStreet &nbsp;. &nbsp; food near me
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    Popular restaurant types near me
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    Bakeries near me &nbsp;.&nbsp;Bars near me&nbsp;.&nbsp;Beverage Shops near me&nbsp;.&nbsp;Bhojanalya near me&nbsp;.&nbsp;Cafés near me&nbsp;.&nbsp;Casual Dining near me&nbsp;.&nbsp;Clubs near me&nbsp;.&nbsp;Dessert Parlors near me&nbsp;.&nbsp;Dhabas near me&nbsp;.&nbsp;Fine Dining near me&nbsp;.&nbsp;Food Courts near me&nbsp;.&nbsp;Food Trucks near me&nbsp;.&nbsp;Kiosks near me&nbsp;.&nbsp;Lounges near me&nbsp;.&nbsp;Paan Shop near me&nbsp;.&nbsp;Quick Bites near me&nbsp;.&nbsp;Sweet Shops near me
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    Top Restaurant Chains
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    Pizza Hut
+                </div>
+              </div>
+            </div>
+            
+          </div>
+    </div>
+
+      
+      
+      
+      </div>
+
+    </div>
+
+      <!-- ========================================= -->
+      <div class="container p-0 mt-5">
+        <div class=" row d-flex gap-2 mt-5">
+            <div class="last1 col-4 col-md-2 ">
+                <h5>About Zomato</h5>
+                <ul>
+                    <li class="m-1">Who We Are</li>
+                    <li class="m-1">Blog</li>
+                    <li class="m-1">Work With Us</li>
+                    <li class="m-1">Investor Relations</li>
+                    <li class="m-1">Report Fraud</li>
+                    <li class="m-1">Press Kit</li>
+                    <li class="m-1">Contact Us</li>
+                </ul>
+            </div>
+            <div class="last1 col-4 col-md-2">
+                <h5>Zomaverse</h5>
+                <ul>
+                    <li>Zomato</li>
+                    <li>Blinkit</li>
+                    <li>Feeding India</li>
+                    <li>Hyperpure</li>
+                    <li>Zomato Live</li>
+                    <li>Zomaland</li>
+                    <li>Weather Union</li>
+                </ul>
+            </div>
+            <div class="last1 col-4 col-md-2">
+                <h5>For Restaurants</h5>
+                <ul>
+                    <li>Partner With Us</li>
+                    <li>Apps For You</li>
+                </ul>
+            </div>
+            <div class="last1 col-4 col-md-2">
+                <h5>Learn More</h5>
+                <ul>
+                    <li>Privacy</li>
+                    <li>Security</li>
+                    <li>Terms</li>
+                    <li>Sitemap</li>
+                </ul>
+            </div>
+            <div class="last1 col-4 col-md-2">
+                <h5>Social links</h5>
+                <i class="fa-brands fa-linkedin" style="color: #000000;"></i>
+                <i class="fa-brands fa-square-instagram" style="color: #000000;"></i>
+                <i class="fa-brands fa-twitter" style="color: #000000;"></i>
+                <i class="fa-brands fa-square-youtube" style="color: #000000;"></i>
+                <i class="fa-brands fa-square-facebook" style="color: #000000;"></i>
+                <br> <br>
+                <img src="public/play.webp" alt="" class="w-75 d-block">
+                <br>
+                <img src="public/apple.webp" alt="" class="w-75">
+            </div>
+        </div>
+    </div>
 
 
-
-
+       <!-- ============================================== -->
+  </div>
    </div>
 
     <script src="./assets/js/script.js"></script>
